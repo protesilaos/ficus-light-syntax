@@ -1,0 +1,49 @@
+// Ficus Syntax Theme
+
+// Color scheme -----------------------------------
+
+@dbg: #27152C; // Dark background
+@dhl: #37253C; // Dark highlight
+@dt2: #67556C; // Dark bg text secondary
+@dt1: #97859C; // Dark bg text primary
+
+@lbg: #EDF1E5; // Light background
+@lhl: #DDE1D5; // Light highlight
+@lt2: #8D9185; // Light bg text secondary
+@lt1: #5D6155; // Light bg text primary
+
+@red: #AA3A5A; // Red
+@ora: #AC6E00; // Orange
+@yel: #ACA60A; // Yellow
+@gre: #84A33C; // Green
+
+@cya: #6CACAB; // Cyan
+@blu: #6D75CD; // Blue
+@vio: #A46ACD; // Violet
+@mag: #CB5E9A; // Magenta
+
+// Variables -----------------------------------
+
+@text-1: @lt1; // text primary
+@text-2: @lt2; // text secondary
+
+@color-1: @mag; // color primary
+@color-2: @vio; // color secondary
+@color-3: @gre; // color tertiary
+
+@support-1: @yel; // support primary
+@support-2: @cya; // support secondary
+
+@accent-1: @blu; // accent primary
+@accent-2: @red; // accent secondary
+@accent-3: @ora; // accent tertiary
+
+// Base vars -----------------------------------
+
+@syntax-fg: @text-1; // text primary
+@syntax-accent: @accent-1; // accent primary
+@syntax-bg: @lbg; // background
+@syntax-guide: @lhl; // background highlight
+@syntax-selection: @syntax-guide;
+@syntax-selection-gutter: @syntax-guide;
+@syntax-cursor-line: fade(@syntax-selection, 26%); // needs to be semi-transparent to show serach results
